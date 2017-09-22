@@ -11,21 +11,26 @@
 }
 
 
-
 body
 {
-	background: url("fond-site.jpg") no-repeat;
+	background: url("fond_bleu3.png") no-repeat ;
+    background-position: top center;
     background-color:white;
 	font-family: 'ambleregular', Impact, "Arial Black";
-    margin: 2%;
+    margin: auto;
+    width: 1000px; /* a adapater en fonction de l'image de fond*/
 }
 
+#page
+{
+
+}
 
 header
 {
 	margin: 2%;
 	width: 95%;
-    height: 600px;
+    height: 820px;
 
 
 }
@@ -53,6 +58,11 @@ section
 	margin: 2%;
 }
 
+#techno
+{
+    
+}
+
 #entreprise
 {
     align-self: flex-end;
@@ -63,6 +73,10 @@ section
     text-align: left;
 }
 
+#imagetransition
+{
+    text-align: right;
+}
 h2
 {
 	color: #6495ED;
