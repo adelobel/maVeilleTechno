@@ -1,0 +1,11 @@
+{
+    "name": "ma-todolist",
+    "version": "0.1.0",
+    "dependencies": {
+        "express": "~4.15.0",
+        "ejs": "~2.5.0"
+    },
+    "author": "Antoine <antoinedelobel@msn.com>",
+    "description": "une todolist basique"
+    
+}
