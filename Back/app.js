@@ -8,7 +8,14 @@ var app = express();
 
 /* On utilise les sessions */
 app.use(session({secret: 'todotopsecret'}))
- 
+
+.get('/test', function(req, res) {
+    res.render('test.txt', {test: req.session.test});
+})
+
+.get('/todo', function(req, res) {
+    res.render('todo.ejs', {todolist: req.session.todolist});
+})
 /* S'il n'y a pas de todolist dans la session,
 on en crée une vide sous forme d'array avant la suite */
 .use(function(req, res, next){
