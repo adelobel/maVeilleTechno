@@ -3,7 +3,8 @@
     "version": "0.1.0",
     "dependencies": {
         "express": "~4.15.0",
-        "ejs": "~2.5.0"
+        "ejs": "~2.5.0",
+        "mysql": "~2.14.0"
     },
     "author": "Antoine <antoinedelobel@msn.com>",
     "description": "une todolist basique"
